@@ -29,6 +29,8 @@ my $folder=getRootFolder();
 print "Parsing the ${folder}/index.xml database...\n";
 parseDB( "$folder" );
 
+mkdir "$folder/CategoryImages";
+
 my %founds=();
 my %founds_alone=();
 

@@ -1,3 +1,26 @@
+========
+Read also the wiki page
+http://wiki.kde.org/tiki-index.php?page=Image%3A%3AKimdaba
+=======
+
+
+
+This is a perl module Image::Kimdaba.pm which allows quick extensions
+to kimdaba, and some scripts that use this.
+
+To install it :
+	
+	$ perl -MCPAN -e shell
+	follow the instructions. 
+	then type :
+	install Image::Kimdaba
+
+(Note: if you want to install it all locally, say "PREFIX=~/local"
+and set the environment variable :
+
+	$ export PERL5LIB=~
+
+
 This is a perl module Image::Kimdaba.pm which allows quick extensions
 to kimdaba, and some scripts that use this.
 
@@ -69,3 +92,4 @@ pictures contained in this folder.
      non kde apps (see kim_2_digikam ))
 Edit the first line of the script, then     
 $ ./kim_2_filesystem <rootfolder>    
+
